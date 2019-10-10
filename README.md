@@ -5,12 +5,12 @@ Useful PowerShell functions and scripts
 
 1. Open your powershell profile
 ```powershell
-PS> notepad $profile
+notepad $profile
 ```
 
 2. Append the following lines to your PowerShell Profile
 ```powershell
-PS> Get-ChildItem "C:\{path\to}\powershell-utils\functions" | ForEach-Object { . $_.FullName }
+Get-ChildItem "C:\{path\to}\powershell-utils\functions" | ForEach-Object { . $_.FullName }
 ```
 
 3. Save profile and restart your powershell terminal
